@@ -5,13 +5,14 @@
 }
 body{
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
 .top{
     background-image: url(../images/Background_Hero.png);
     width: 100%;
     height: 534px;
 }
+
 .top header{
     margin-top: 11px;
     margin-left: 70px;
@@ -373,4 +374,76 @@ footer .textBottom{
     font-weight: 500;
     text-align: center;
     margin-top: 15px;
+}
+/* html da pagina dos livros "book.html" */
+.bookHtml{
+    background: #60605C;
+}
+.Book{
+    height: 110px;
+}
+.lineTop{
+    width: 100%;
+    height: 27px;
+    background: #FFDB00;
+}
+.topBox{
+    margin-top: 117px;
+    margin-left: 250px;
+    display: inline-flex;
+    align-items: top;
+}
+.topBox .textBox{
+    margin-left: 110px;
+}
+.topBox .textBox .title{
+    width: 420px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -12px;
+}
+.topBox .textBox .author{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.topBox .textBox .text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 420px;
+    height: 51px;
+}
+.topBox .Bimg{       
+    width: 277px;
+    height: 399px;
+    margin-left: 73px;
+}
+.selectBtm{
+    width: 61px;
+    height: 140px;
+    margin-top: 40px;
+}
+.selectBtm img{
+    width: 61px;
+    height: 61px;
+    margin-bottom: 18px;
+}
+.articleBook{
+    width: 80%;
+    height: 1197px;
+    background: #89715A;
+    display: flex;
+    margin-left: 10%;
+    margin-top: -130px;
 }
