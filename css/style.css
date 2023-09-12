@@ -12,7 +12,22 @@ body{
     width: 100%;
     height: 534px;
 }
-
+.text{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title{
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 .top header{
     margin-top: 11px;
     margin-left: 70px;
@@ -50,22 +65,6 @@ body{
     margin-top: 40px;
     width: 554px;
     height: 217px;
-}
-.hero .box .title{
-    color: #FFF;
-    font-family: "Poppins";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.hero .box .text{
-    color: #FFF;
-    font-family: "Poppins";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .hero .box .btms{
     margin-top: 40px;
@@ -124,12 +123,7 @@ body{
     margin-top: -20px;
 }
 .booksBox .title{
-    color: #FFF;
-    font-family: Poppins;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     padding-left: 9vh;
     padding-top: 4.5vh;
     padding-bottom: 2vh;
@@ -163,11 +157,6 @@ body{
     margin: 0;
 }
 .booksBox .books .book .box .text{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     margin-top: 12px;
     width: 307px;
     height: 165px;
@@ -231,11 +220,7 @@ body{
 }
 .moviesBox .movies .movie .text{
     color: #000;
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .actorsBox{
     height: 535px;
@@ -244,12 +229,7 @@ body{
     margin-top: -20px;
 }
 .actorsBox .title{
-    color: #FFF;
-    font-family: Poppins;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     margin-left: 10vh;
     padding-top: 6vh;
 }
@@ -281,12 +261,7 @@ body{
     line-height: normal;
 }
 .actorsBox .text{
-    color: #FFF;
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     position: relative;
     top: -10px;
 }
@@ -333,7 +308,6 @@ footer .conteudo .makers{
 }
 footer .conteudo .makers .title{
     color: #131313;
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -398,8 +372,6 @@ footer .textBottom{
 }
 .topBox .textBox .title{
     width: 420px;
-    color: #FFF;
-    font-family: Poppins;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -415,12 +387,7 @@ footer .textBottom{
     line-height: normal;
 }
 .topBox .textBox .text{
-    color: #FFF;
-    font-family: Poppins;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     width: 420px;
     height: 51px;
 }
@@ -446,4 +413,41 @@ footer .textBottom{
     display: flex;
     margin-left: 10%;
     margin-top: -130px;
+    margin-bottom: 110px;
+}
+.articleBook .textTop .seemore{
+    width: 180px;
+    height: 48px;
+    border-radius: 16px;
+    background: #3E0607;
+}
+.articleBook .textTop .seemore p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.articleBook .textTop .seemore p span{
+    margin-left: 10px;
+    position: relative;
+}
+.articleBook .textTop .star{
+    margin-left: 10px;
+    margin-bottom: 34.5px;
+}
+.articleBook .textTop{
+    width: 440px;
+    height: 99.5px;
+    display: inline-flex;
+    margin-left: 57%;
+    flex-wrap: wrap;
+    margin-top: 34.5px;
+}
+.articleBook .line{
+    width: 90%;
+    height: 2px;
+    background-color: #3E0607;
 }
