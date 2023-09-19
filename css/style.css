@@ -35,7 +35,7 @@ body{
 }
 .top header .menu{
     display: inline-flex;
-    margin-left: 430px;
+    margin-left: 20vw;
 }
 .top header .menu a{
     margin-right: 15px;
@@ -45,7 +45,7 @@ body{
     height: 25px;
     position: relative;
     top: 3px ;
-    margin-left: 5px;
+    margin-left: 16px;
 }
 .top header .menu a{
     color: #FFF5BF;
@@ -129,19 +129,16 @@ body{
     padding-bottom: 2vh;
 }
 .booksBox .books{
-    margin-left: 16.3vh; 
-    margin-right: 16.2vh;
-    margin-bottom: 6.4vh;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4em;
+    padding-bottom: 4em;
+    margin: 0 6em;
 }
-.booksBox .books .book{
-    width: 330px;
+ .booksBox .books .book{
     display: inline-flex;
-    padding-bottom: 65px;
 }
-.booksBox .books .b2{
-    padding-left: 38vh;
-}
+
 .booksBox .books .book .box{
     display: inline;
     margin-left: 23px;
@@ -157,9 +154,10 @@ body{
     margin: 0;
 }
 .booksBox .books .book .box .text{
-    margin-top: 12px;
-    width: 307px;
-    height: 165px;
+  font-size: 14px;
+  margin-top: 12px;
+  width: 307px;
+  height: 165px;
 }
 .booksBox .books .book img{
     width: 200px;

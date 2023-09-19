@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <title>Livro HP 1 </title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="./js/books-data.js" defer></script>
+    <script src="./js/book.js" defer></script>
 </head>
 
 <body class="bookHtml">
@@ -22,13 +24,13 @@
     <div class="lineTop"></div>
 
     <section class="topBox">
-        <div class="selectBtm">
+        <!-- <div class="selectBtm">
             <img src="images/ButtomUnselect.svg" alt="ButtomUnselect">
             <img src="images/ButtomSelect.svg" alt="ButtomSelect">
-        </div>
-        <img class="Bimg" src="/images/Livro_1.png" alt="HP 1">
+        </div> -->
+        <img class="Bimg" src="/images/Livro_1.png" alt="HP 1" id="livro-capa">
         <div class="textBox">
-            <p class="title">Harry Potter e a Pedra Filosofal</p>
+            <p class="title" id="title">Harry Potter e a Pedra Filosofal</p>
             <p class="author">J.K. Rowling</p>
             <p class="text">Neste Livro é que se inicia a grande saga de Harry Potter com inúmeras aventuras incríveis e mágicas!</p>
         </div>
@@ -36,7 +38,7 @@
 
     <section class="articleBook">
         <div class="textTop">
-            <div class="seemore"><p>Ver sobre o livro <span><img src="images/Vector.png" alt=""></span></p></div> 
+            <div class="seemore"><p>Comprar livro <span><img src="images/Vector.png" alt=""></span></p></div> 
             <div class="star">
                 <img src="images/Star.png" alt="1">
                 <img src="images/Star.png" alt="1">
@@ -52,25 +54,25 @@
 
         <div class="part">
             <p class="title">Descrição e Enredo</p>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, do.</p>
+            <p class="text" id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, dolor ab! Fuga rem aspernatur ut error nostrum repellat placeat, eos repellendus id.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea vitae soluta alias non commodi quod? Inventore, do.</p>
         </div>
         <div class="part2">
             <div class="art one">
                 <p class="title">Autores e Editores</p>
-                <p class="text">Pessoa X<br>Pessoa Y<br>Pessoa Z</p>
+                <p class="text">J. K. Rowling</p>
             </div>
             <div class="art two">
                 <p class="title">Data de Lançamento</p>
-                <p class="text">Data XYZ</p>
+                <p class="text" id="created_at">Date X</p>
             </div>
-            <div class="art three">
+            <!-- <div class="art three">
                 <p class="title">Disponível para compra via</p>
                 <p class="text">Capa mole: link x<br>Capa dura: link x</p>
             </div>
             <div class="art three">
                 <p class="title">Informações sobre o livro</p>
                 <p class="text">Unidades vendidas: valor Z<br>Total de Páginas: X</p>
-            </div>
+            </div> -->
         </div>
 
     </article>

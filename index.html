@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Harry Potter </title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="./js/utils.js" defer></script>
+    <script src="./js/books-data.js" defer></script>
+    <script src="./js/books-index.js" defer></script>
 </head>
 <body>
     
@@ -12,9 +15,9 @@
         <header>
             <div class="logo"><a href="index.html"><img src="images/Logo.png" alt="Logo HP"></a></div>
             <div class="menu">
-                <a href="#">LIVROS<img src="images/book.svg" alt="book"></a>
-                <a href="#">PERSONAGENS<img src="images/Vector.svg" alt="vector"></a>
-                <a href="#">CASAS EM HOWGWARTS<img src="images/US Capitol.svg" alt="capitol"></a>
+                <a href="books-list.html">LIVROS<span><img src="images/book.svg" alt="book"></span></a>
+                <a href="#">HISTORIA<span><img src="images/Vector.svg" alt="vector"></span></a>
+                <a href="#">CASAS EM HOWGWARTS<span><img src="images/US Capitol.svg" alt="capitol"></span></a>
             </div>
         </header>
 
@@ -26,10 +29,10 @@
                     
                 <div class="btms">
                     <div class="btm1">
-                        <a href="#">Ver sobre o Livro <span class="arrow"><img src="images/Arrow.svg" alt="arrow"></span></a>
+                        <a href="book.html?book=0">Ver sobre o Livro <span class="arrow"><img src="images/Arrow.svg" alt="arrow"></span></a>
                     </div>
                     <div class="btm2">
-                        <a href="#books">Ler sobre outros livros</a>
+                        <a href="./books-list.html">Ler sobre outros livros</a>
                     </div>
                 </div>
             </div>
@@ -42,46 +45,7 @@
     <a name="books"></a>
     <section class="booksBox">
         <p class="title">Livros em sequência de lançamento</p>
-        <main class="books">
-            <div class="book">
-                <img src="images/Livro_1.png" alt="LPF">
-                <div class="box">
-                    <p class="title2">Harry Potter e a Pedra Filosofal</p>
-                    <p class="text">Harry Potter vive com os tios Dursley, onde é mal tratado até completar seus 11 anos.
-                    O jovem bruxo começa a receber cartas da escola de Hogwarts, Harry é filho de bruxos e foi convidado a ingressar na escola de   bruxaria...</p>
-                <div class="buttom"><a href="book.html">Ver Mais</a></div>
-                </div>
-
-            </div>
-
-            <div class="book b2">
-                <img src="images/Livro_2.png" alt="LCS">
-                <div class="box">
-                    <p class="title2">Harry Potter e a Câmara Secreta</p>
-                    <p class="text">O livro conta a lenda de uma câmara secreta onde existe um monstro escondido que pode matar todos que não tem o sangue  puro de bruxos.
-                    Harry é o principal suspeito de ter aberto essa câmara...</p>
-                    <div class="buttom"><a href="#">Ver Mais</a></div>
-                </div>
-            </div>
-
-            <div class="book">
-                <img src="images/Livro_3.png" alt="LPA">
-                <div class="box">
-                    <p class="title2">Harry Potter e o Prisioneiro de Azkaban</p>
-                    <p class="text">Durante 12 anos o forte de Azkaban guardou o prisioneiro Sirius Black, acusado de matar 13 pessoase ser o principal     ajudante de Voldemort, o Senhor das Trevas. Agora ele conseguiu escapar, deixando apenas uma pista...</p>
-                    <div class="buttom"><a href="#">Ver Mais</a></div>
-                </div>
-            </div>
-
-            <div class="book b2">
-                <img src="images/Livro_4.png" alt="LCF">
-                <div class="box">
-                    <p class="title2">Harry Potter e o Cálice de Fogo</p>
-                    <p class="text">Harry é escolhido pelo Cálice de Fogo para competir como um dos campeões de Hogwarts, tendo ao lado seus fiéis amigos.  Muitos desafios, feitiços, poções e confusões estão reservados para Harry...</p>
-                    <div class="buttom"><a href="#">Ver Mais</a></div>
-                </div>
-            </div>
-        </main>
+        <main class="books" id="book-list"></main>
     </section>
 
     <section class="moviesBox">

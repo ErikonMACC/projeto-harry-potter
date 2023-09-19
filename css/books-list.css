@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  background-color: #60605c;
+  padding-bottom: 6em;
+}
+
+.title-main {
+  display: flex;
+  background-color: transparent;
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.orange { background-color: #de8a37; }
+.green { background-color: #729167; }
+.purple { background-color: #83569b; }
+.turquoise { background-color: #427470; }
+.dark-orange { background-color: #cc4f25; }
+.wine { background-color: #8f3340; }
+.ligth-green { background-color: #598a5c; }
+.yellow { background-color: #e0b72c;}
+
+
+.book-container {
+  background-color: #60605c;
+  display: grid;
+  justify-items: center;
+  row-gap: 2%;
+  margin-top: 2em;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  align-items: center;
+  width: 70%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.image-container img {
+  object-fit: contain;
+  padding: 1em 0;
+}
+
+.book-name, .info .title, .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-name p {
+  background-color: #1a1a1a;
+  font-size: 1.2em;
+  color: #fff;
+  padding: .5em 1em;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  height: 80%;
+  background-color: #929290;
+  color: #fff;
+  font-size: 14px;
+}
+
+.info .title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description p {
+  width: 80%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.btn-container a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: solid #fff;
+  padding: .5em 1em;
+  width: 40%;
+  border-radius: 1em;
+  font-weight: 600;
+}
